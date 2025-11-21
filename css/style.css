@@ -17,6 +17,8 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   gap: 32px;
+  position: relative;
+  padding-right: 120px;
 }
 
 nav ul {
@@ -39,7 +41,9 @@ nav a {
 }
 
 nav img {
-  margin-left: auto;
+  position: absolute;
+  top: 0;
+  right: 16px;
   width: 90px;
   height: auto;
   border: 1px solid #8a8a8a;
